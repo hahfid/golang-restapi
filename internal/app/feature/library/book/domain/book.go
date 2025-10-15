@@ -1,7 +1,7 @@
-package models
+package domain
 
 type Book struct {
-	ID     uint   `gorm:"primaryKey" json:"id"`
+	ID     uint   `gorm:"primaryKey"`
 	Title  string `json:"title"`
 	Author string `json:"author"`
 }
